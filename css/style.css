@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* body*/
+.bg_celeste {
+  background-color: #f7fbfc;
+}
+
+/*header*/
+.img-navbar {
+  height: 50px;
+  margin-left: 60px;
+}
+.navbar-mia {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: solid 3px #636363;
+  background-color: #d6e6f2;
+  height: 75px;
+  margin-bottom: 50px;
+}
+.navlink-mio {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  color: #636363;
+  text-decoration: none;
+  border: solid 1px #b9d7ea;
+  border-radius: 5px;
+  background-color: #769fcd;
+  font-size: 25px;
+  margin: 0px 20px;
+}
+.navlink-mio:hover {
+  background-color: #636363;
+  color: #f7fbfc;
+}
+
+/*section*/
+.img-section {
+  width: 75px;
+  height: 75px;
+}
+#section-main {
+  margin-bottom: 50px;
+  margin-left: 100px;
+}
+
+/*main*/
+#main_index {
+  height: 400px;
+  overflow: hidden;
+  margin: 0px 30px 50px 30px;
+}
+
+/*footer*/
+.navbar-footer-mia {
+  background-color: #d6e6f2;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  color: #636363;
+  border-top: solid 3px #636363;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.icono {
+  font-size: 30px;
+}
+.nav-item-mio {
+  margin-right: 50px;
+}
+.icono:hover {
+  color: #f7fbfc;
+}
+
+/* ¿cómo funciona? */
+.fondo-mapa {
+  background-image: url("../assets/imagenes/mapa2.png");
+  background-size: cover;
+}
+#main_cf {
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+#main_cf ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.sangria_izquierda {
+  margin-left: 250px;
+}
+.sangria_derecha {
+  margin-right: 250px;
+}
+#main_cf ul li ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 20px;
+  font-family: "Sofia Sans", sans-serif;
+  color: #636363;
+  font-size: 20px;
+}
+#main_cf ul li ul li {
+  padding: 10px 30px;
+}
+.numeros_gigantes {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #636363;
+  font-size: 130px;
+  font-weight: bold;
+}
+.izquierda {
+  margin-left: 150px;
+}
+.derecha {
+  margin-right: 150px;
+}
+.recuadro_celeste {
+  background-color: #d6e6f2;
+  border: solid 3px #b9d7ea;
+  border-radius: 5px;
+}
+
+.agrandar {
+  transition: scale 1s;
+}
+.agrandar:hover {
+  transform: scale(2);
+}
+
+/* contacto*/
+.titulo {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  color: #636363;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+.texto {
+  font-family: "Sofia Sans", sans-serif;
+  line-height: 2;
+  color: #636363;
+  font-size: 20px;
+  padding: 0px 20px 0px 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.texto-form {
+  font-family: "Sofia Sans", sans-serif;
+  color: #636363;
+}
+
+/* quiero manejar */
+.img-auto {
+  height: 300px;
+  width: 300px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+.texto-encabezado {
+  font-family: "Sofia Sans", sans-serif;
+  color: #636363;
+  font-size: 20px;
+  line-height: 2;
+}
+.cuadro_boton {
+  border: solid 1px #769fcd;
+  border-radius: 5px;
+  background-color: #769fcd;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #636363;
+}
+.cuadro_boton:hover {
+  background-color: #636363;
+  color: #f7fbfc;
+}
+.margen-inferior {
+  margin-bottom: 50px;
+}
+.img-tarjeta {
+  height: 300px;
+  width: 300px;
+}
+.centrar {
+  display: flex;
+  justify-content: center;
+}
+
+/* equipos */
+.bw {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.img-conductor {
+  width: 70px;
+  height: 50px;
+}
+.estilo-texto {
+  font-family: "Sofia Sans", sans-serif;
+  line-height: 2;
+  color: #636363;
+  font-size: 20px;
+}
+.conductores {
+  border: #636363 3px solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+.margen-boton {
+  margin-top: 30px;
+}
